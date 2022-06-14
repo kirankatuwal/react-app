@@ -2,8 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import './style.css';
 
-function App() {
-    return <h1>Hello world</h1>
+const App = () => {
+    return <div>
+        <h1>Hello world</h1>
+        <p>Those are my lines</p>
+    </div>
 }
 
 ReactDOM.render(<App />, document.getElementById("root"));
