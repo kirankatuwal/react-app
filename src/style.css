@@ -10,3 +10,10 @@ h1 {
 p {
     text-align: center;
 }
+
+.btn {
+    padding: 20px;
+    border-radius: 20px;
+    color: antiquewhite;
+    background-color: azure;
+}

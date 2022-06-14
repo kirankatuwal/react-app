@@ -1,12 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import './style.css';
+import App from "./App";
 
-const App = () => {
-    return <div>
-        <h1>Hello world</h1>
-        <p>Those are my lines</p>
-    </div>
-}
 
 ReactDOM.render(<App />, document.getElementById("root"));
